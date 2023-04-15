@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                   child: Icon(
                     Icons.bluetooth_disabled,
                     size: 200.0,
-                    color: Colors.white,
+                    color: Colors.blue,
                   ),
                 ),
               ),
@@ -49,7 +49,7 @@ class Home extends StatelessWidget {
     return SafeArea(
         child: Scaffold(
       appBar: AppBar(
-        title: Text('Conexión '),
+        title: Text('Menu principal'),
       ),
       body: SelectBondedDevicePage(
         onCahtPage: (device1) {

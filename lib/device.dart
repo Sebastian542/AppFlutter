@@ -22,3 +22,6 @@ class BluetoothDeviceListEntry extends StatelessWidget {
     );
   }
 }
+
+FlatButton({Text child, Function onPressed, MaterialColor color}) {
+}
